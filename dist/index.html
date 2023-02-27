@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do List</title>
+    <script src="https://kit.fontawesome.com/5706a27a8e.js" crossorigin="anonymous"></script>
+<script defer src="runtime.js"></script><script defer src="main.js"></script></head>
+<body>
+    <section class="todolist borderBottom">
+        <div class="header borderBottom">
+            <p>Today's To Do</p>
+            <span class="fa-solid fa-arrows-rotate"></span>
+        </div>
+        <form class="todoForm">
+            <div class="borderBottom input">
+                <input type="text" placeholder="Add to your list" class="listInput"  required>
+                <button type="submit" class="inputButton">&#8626;</button>
+            </div>            
+            <ul class="list">                
+            </ul>
+            <div class="clear">
+                <button class="clearBtn">Clear All Completed</button>
+            </div>
+        </form>
+        <div class="notification"></div>
+    </section>
+</body>
+</html>
